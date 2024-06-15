@@ -2,7 +2,6 @@
   border: 2px solid green;
   width: 46%;
   height: 60%;
-  margin-left: 10%;
   font-weight: lighter;
 
 }
@@ -11,6 +10,7 @@
   display: flex;
   align-items: center;
   color: white;
+  justify-content: space-around;
   height: 84%;
   /* border: 2px solid red; */
 }
