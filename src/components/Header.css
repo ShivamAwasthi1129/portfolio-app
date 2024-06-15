@@ -1,0 +1,21 @@
+.nav{
+  /* border: 2px solid red; */
+  /* background-color: #1F2839; */
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+.icons{
+  padding-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10vw;
+  /* border: 2px solid red; */
+  filter: invert(1);
+}
+
+.header-link{
+  color: white;
+}

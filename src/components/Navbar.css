@@ -1,0 +1,21 @@
+.navbar{
+ background-color: #1F2839 ; 
+}
+.logo{
+  height: 5vh;
+}
+.navbar-nav a{
+  color: white;
+}
+.nav-link:hover{
+  color: goldenrod;
+}
+.btn{
+  background-color: goldenrod;
+  color: white;
+  font-weight: bold;
+  border-color: white;
+}
+.navbar-toggler{
+ background-color: white;
+}
