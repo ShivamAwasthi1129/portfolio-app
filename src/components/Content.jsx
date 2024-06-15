@@ -9,6 +9,7 @@ const Content = () => {
         <h3 className='content-head'>Award Winning</h3>
         <h1 className='content-title'>Leading Law Firm</h1>
         <h5 className='content-text'> We debounce with righteous indigination and dislike men who are beguiled and demoralized by the charms of pleas</h5>
+       <button className='contact'>Contact us</button>
       </div>
       <img style={{ maxHeight: "34rem" }} src={image} alt="" />
     </div>

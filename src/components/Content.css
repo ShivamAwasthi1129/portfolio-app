@@ -1,5 +1,5 @@
 .content-title-container{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 46%;
   height: 60%;
   font-weight: lighter;
@@ -16,9 +16,8 @@
 }
 
 .box img{
-  /* border: 2px solid red; */
-  max-height: 38rem;
-  margin-top: 188px;
+  max-height: 41vw;
+  margin-top: 10vw;
   margin-left: 8vw;
 }
 .content-head{
@@ -30,4 +29,13 @@
   font-family:auto;
   font-size: 4.5vw;
   font-weight: bold;
+}
+.contact{
+  padding: 0.8vw;
+  border-radius: 0.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    background-color: goldenrod;
+    color: white;
+    font-weight: bolder;
 }
