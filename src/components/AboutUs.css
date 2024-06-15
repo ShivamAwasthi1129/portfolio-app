@@ -1,0 +1,51 @@
+.about-container{
+  /* border: 2px solid red; */
+  display: flex;
+  height: 90vh;
+  margin: 10vh 0;
+  padding:6vh 4vh;
+}
+.left{
+  height: 78vh;
+  /* border: 2px solid red; */
+}
+.right{
+  /* border: 2px solid red; */
+  padding: 15px 22px;
+  line-height: 1.8rem;
+}
+.about-heading{
+  font-family: 'Playfair Display', serif;
+  color: goldenrod;
+}
+.about-title{
+  font-family: 'Playfair Display', serif;
+}
+.about-content{
+  width: 50vw;
+  color: gray;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 1000px){
+  .about-container{
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left{
+    width: 68vw;
+  }
+  .about-content{
+    width: 84vw;
+  }
+  }
+  @media only screen and (max-width: 391px){
+    .about-content{
+      width: 89vw;
+    }
+    }

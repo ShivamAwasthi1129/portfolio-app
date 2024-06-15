@@ -1,21 +1,24 @@
-.navbar{
- background-color: #1F2839 ; 
+.navbar {
+  background-color: #1f2839;
+  position: sticky;
+  top: 0px;
+  z-index: 50;
 }
-.logo{
+.logo {
   height: 5vh;
 }
-.navbar-nav a{
+.navbar-nav a {
   color: white;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: goldenrod;
 }
-.btn{
+.btn {
   background-color: goldenrod;
   color: white;
   font-weight: bold;
   border-color: white;
 }
-.navbar-toggler{
- background-color: white;
+.navbar-toggler {
+  background-color: white;
 }

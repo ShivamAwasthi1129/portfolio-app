@@ -7,11 +7,11 @@
   justify-content: space-between;
 }
 .icons{
-  padding-right: 2%;
+  padding-right: 1%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 10vw;
+  width: 19vw;
   /* border: 2px solid red; */
   filter: invert(1);
 }

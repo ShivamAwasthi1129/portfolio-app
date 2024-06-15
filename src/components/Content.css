@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   color: white;
-  height: 67vh
+  height: 67vh;
   /* border: 2px solid red; */
 }
 
@@ -30,12 +30,41 @@
   font-size: 4.5vw;
   font-weight: bold;
 }
-.contact{
-  padding: 0.8vw;
+.content-text{
+  font-weight: 100;
+}
+.contact-btn{
   border-radius: 0.5rem;
-    font-size: 2rem;
-    margin-top: 1rem;
-    background-color: goldenrod;
-    color: white;
-    font-weight: bolder;
+  font-size: 3vh;
+  margin-top: 1rem;
+  padding: 8px;
+  background-color: goldenrod;
+  color: white;
+  font-weight: 700;
+}
+.contact-btn:hover{
+    background-color: gold;
+    color: black;
+}
+@media only screen and (max-width: 1000px){
+  .box img{
+    display: none;
+  }
+  .content-title-container{
+    text-align: center;
+    width: 100vw;
+    padding: 0 1em;
+    margin-left: 0;
+    height: 56vh;
+  
+  }
+  .content-title{
+    font-size: 10vw;
+  }
+  .content-head{
+    font-size:8vw;
+  }
+  .content-text{
+    font-size: 1.85rem;
+  }
 }
